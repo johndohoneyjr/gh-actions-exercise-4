@@ -1,6 +1,7 @@
 name: Share data between jobs
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
 
 jobs:
   job_1:
